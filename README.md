@@ -4,10 +4,10 @@ This repository contains the Examples, Exercises, and Solutions
 for Chapter 9 of Python Crash Course by Eric Matthes, which 
 covers classes.
 
-See the following link for this textbook:<a href="https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/1593276036" title="Python Crash Course" alt="Python Crash Course" target="">Python Crash Course</a>
+See the following link for this textbook:<a href="https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/1593276036" title="Python Crash Course" alt="Python Crash Course" target=""> Python Crash Course</a>
 
 <p align="center">
-    <img src="https://www.amazon.com/Python-Crash-Course-Hands-Project-Based/dp/1593276036" alt="Python Crash Course" title="Python Crash Course">
+    <img src="https://learntocodetogether.com/wp-content/uploads/2019/11/download-8.jpeg" alt="Python Crash Course" title="Python Crash Course">
 </p>
 
 <i>Please note, this repository is currently a work in progress and will be updated over time.</i>
