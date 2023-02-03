@@ -33,8 +33,8 @@ To compile and execute the Chapter 9 files,
     (2) copy the code and past it directly into your preferred
         Integrated Development Environment (IDE), PyCharm, Sublime,
         or Visual Studio Code, for example, or your preferred text
-        editor, Vim, Nano, or Emacs, for example,
-    (3) and either build and run the files in your IDE, or
+        editor, Vim, Nano, or Emacs, for example, and either
+    (3) build and run the files in your IDE, or
     (4) use the following command-line script:
 
             # python3 name_of_file.py
