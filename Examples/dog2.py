@@ -16,7 +16,7 @@ class Dog():
 
     def roll_over(self):
         """simulate rolling over in response to a command"""
-        print(self.title() + " rolled over!")
+        print(self.name.title() + " rolled over!")
 
 
 my_dog = Dog('willie', 6)
