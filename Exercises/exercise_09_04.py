@@ -31,10 +31,34 @@ restaurant.number_served = 25
 print("Updated number of customers served: " + str(restaurant.number_served))
 
 
-# Add a method called set_number_served() that lets you increment
+# Add a method called set_number_served() that lets you set
 # the number of customers who've been served. Call this method
 # with a new number and print the value again.
 
+class Restaurant():
+
+    def __init__(self, restaurant_name, cuisine_type):
+        self.restaurant_name = restaurant_name
+        self.cuisine_type = cuisine_type
+        self.number_served = 0
+
+
+    def describe_restaurant(self):
+        print(self.restaurant_name.title() + " has delicious " + self.cuisine_type + ".")
+
+
+    def open_restaurant(self):
+        print(self.restaurant_name.title() + " is now open.")
+
+
+    def set_number_served(self, customers):
+        """set the number of served customers"""
+        self.number_served = customers
+
+# print the updated number of customers using the set_number_served() method
+restaurant = Restaurant('grande sunrise', 'tacos')
+restaurant.set_number_served(40)
+print("Updated number of customers served via method call: " + str(restaurant.number_served))
 
 
 # Add a method called increment_number_served() that lets you
