@@ -97,10 +97,8 @@ restaurant = Restaurant('grande sunrise', 'tacos')
 restaurant.set_number_served(40)
 print("\nUpdated number of customers served via method call: " + str(restaurant.number_served))
 
-restaurant.increment_number_served(5)
+restaurant.increment_number_served(35)
 print("Undpated number of customers served via increment: " + str(restaurant.number_served))
-
-
 
 
 
