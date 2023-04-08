@@ -1,5 +1,6 @@
 # dog2.py, Chapter 9, Python Crash Course
 # program executes a dog class
+# methods: __init__(), sit(), roll_over()
 
 class Dog():
     """a simple attempt to model a dog"""
@@ -23,6 +24,11 @@ my_dog = Dog('willie', 6)
 
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years old.")
+
+my_dog2 = Dog('taliah', 11)
+
+print("\nMy dog's name is " + my_dog2.name.title() + ".")
+print("My dog is " + str(my_dog2.age) + " years old.")
 
 
 
