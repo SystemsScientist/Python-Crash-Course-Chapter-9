@@ -25,9 +25,9 @@ my_dog = Dog('willie', 6)
 print("My dog's name is " + my_dog.name.title() + ".")
 print("My dog is " + str(my_dog.age) + " years old.")
 
-my_dog2 = Dog('taliah', 11)
+my_dog2 = Dog('freddie', 3)
 
-print("\nMy dog's name is " + my_dog2.name.title() + ".")
+print("\nMy other dog's name is " + my_dog2.name.title() + ".")
 print("My dog is " + str(my_dog2.age) + " years old.")
 
 
