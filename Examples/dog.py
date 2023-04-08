@@ -1,5 +1,6 @@
 # dog.py, Chapter 9, Python Crash Course
 # program executes a dog class
+# methods: __init__(), sit(), roll_over()
 
 class Dog():
     """a simple attempt to model a dog"""
